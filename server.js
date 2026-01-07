@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT = 3000
+const PORT = 4000
 
 app.use(express.json())
 
@@ -10,5 +10,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log(`Example app listening at http://localhost:3000`)
+    console.log(`Server is listening at http://localhost:4000`)
 });
