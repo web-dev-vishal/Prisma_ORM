@@ -22,5 +22,9 @@
   "homepage": "https://github.com/web-dev-vishal/Prisma_ORM#readme",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "prisma": "^7.2.0"
   }
 }
